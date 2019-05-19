@@ -48,7 +48,7 @@ while True:
 
         if confidence < 100:
             id = names[id]
-            confidence = round(100-confidence)
+            confidence = round(confidence)
             if confidence > 60:
                 print(confidence)
                 recognized = True
